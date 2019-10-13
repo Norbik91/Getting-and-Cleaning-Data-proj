@@ -1,7 +1,7 @@
 # Getting-and-Cleaning-Data-proj
 Study Project for "Getting and Cleaning Data" course
 
-File run_analysis.R:
+File run_analysis.R description:
 1) read all the parts of data set using read.table() function
 2) Bind XTrain and XTest data into one data frame (df)
 3) Assign column names to df
