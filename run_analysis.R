@@ -22,7 +22,7 @@ fMeanStd <- grepl("mean|std",features$Feature)
 df <- df[,fMeanStd]
 
 # 6. Prepare "activities" vector merging Activity labels with names
-activities <- merge(rbind(YTrain, YTest), act_labels, by.x = "Label", by.y = "Label")
+activities <- inner_join(rbind(YTrain, YTest), act_labels)
 
 # 7. Bind dats frame with subjects and activity names
 df <- cbind(rbind(SubjTrain, SubjTest), activities$Activity, df)
