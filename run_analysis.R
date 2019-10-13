@@ -1,3 +1,4 @@
+library(dplyr)
 
 # 1. read all the parts of data set using read.table() function
 features <- read.table("./UCI HAR Dataset/features.txt", col.names = c("Label", "Feature"))
@@ -36,7 +37,6 @@ colnames(df) <- gsub("Body|\\(\\)","",colnames(df))
 colnames(df) <- gsub("-"," ",colnames(df))
 
 # 9 Using dplyr package group df data frame by subjects and activities
-library(dplyr)
 df <- tbl_df(df)
 
 calcnames <- colnames(df)[-c(1,2)]
