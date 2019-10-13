@@ -13,4 +13,4 @@ File run_analysis.R description:
 9) - Using dplyr package group df data frame by subjects and activities
    - Summarize all features of df with mean() function
    - Add 'Avg' to the names of the features
-   - Write new data frame to TidyDataAvg.txt file using write.table() function
+10) Write new data frame to TidyDataAvg.txt file using write.table() function
