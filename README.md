@@ -10,10 +10,10 @@ File run_analysis.R:
 6) Prepare "activities" vector merging Activity labels with names
 7) Bind dats frame with subjects and activity names
 8) Change feature names with sub() and rsub() functions
-9.1) Using dplyr package group df data frame by subjects and activities
-9.2) Summarize all features of df with mean() function
-9.3) Add 'Avg' to the names of the features
-10) Write new data frame to TidyDataAvg.txt file using write.table() function
+9) - Using dplyr package group df data frame by subjects and activities
+   - Summarize all features of df with mean() function
+   - Add 'Avg' to the names of the features
+   - Write new data frame to TidyDataAvg.txt file using write.table() function
 
 
 CodeBook:
